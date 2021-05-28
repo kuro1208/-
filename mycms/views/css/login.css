@@ -1,0 +1,104 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  user-select: none;
+  /* color: var(--color-p); */
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.conteiner{
+  display: flex;
+}
+:root{
+  --color-main:rgb(27, 27, 27);
+  --color-light:rgba(255,255,255,0.1);
+  --color-shadow:rgba(0,0,0,0.4);
+  --color-p:#eee;
+  --color-border:#666;
+  /* --color-main:rgb(241, 241, 241);
+  --color-shadow:rgba(255, 255, 255, 0.774);
+  --color-light:rgba(0, 0, 0, 0.089);
+  --color-p:rgb(54, 54, 54); */
+  --color-accent:rgb(71, 181, 255);
+}
+
+
+
+body{
+  background: #0c1727;
+  height: 100%;
+  width: 100%;
+}
+.form{
+  background: #eee;
+  margin: 20px auto;
+  width: 90%;
+  border-radius: 10px;
+  padding: 40px;
+}
+h1{
+  margin: 0 auto ;
+  font-size: 20px;
+  text-align: center;
+}
+form{
+  margin-top: 40px;
+}
+input{
+  border-radius: 6px;
+  background: #ddd;
+  width: 245px;
+  display: block;
+  padding: 15px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+}
+button {
+  position:relative;
+  display:block;
+  margin-top:25px;
+  margin-bottom:15px;
+  padding:14px;
+  width:275px;
+  color: #eee;
+  background: orange;
+  box-shadow:0px 4px 0px rgb(235, 147, 34);
+  cursor:pointer;
+  border: none;
+  border-radius: 6px;
+}
+
+.sign_up h1 {
+  margin-top: 40px;
+  
+}
+.radio{
+  display: inline-block;
+  width: 100px;
+  padding: 15px;
+  margin: 0;
+
+}
+
+.hidden{
+  height: 0;
+  overflow: hidden;
+}
+.sign_up #checkbox:checked ~.hidden{
+  height: auto;
+
+}
