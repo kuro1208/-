@@ -85,6 +85,12 @@
       case 'purple':
         rootTag.setAttribute('data-sub','purple')
         break;
+      case 'yellow':
+        rootTag.setAttribute('data-sub','yellow')
+        break;
+      case 'pink':
+        rootTag.setAttribute('data-sub','pink')
+        break;
     }
   }
   window.addEventListener('DOMContentLoaded', function () {
